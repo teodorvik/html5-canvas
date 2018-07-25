@@ -24,6 +24,9 @@ const createSquare = (x,y) => {
     c.fillRect(x-randSize*.5,y-randSize*.5,randSize,randSize);
 };
 
+/**
+ * Print 'canvas-simple-draw' centered at x,y
+ */
 const createText = (x,y) => {
     const str = 'canvas-simple-draw';
     const txt = c.measureText(str);
